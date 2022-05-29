@@ -27,3 +27,5 @@ my_username ALL=(ALL:ALL) NOPASSWD: ALL
 ## access shared directory with normal user
 
 `sudo usermod -a -G vboxsf my_username`
+
+`reboot`
